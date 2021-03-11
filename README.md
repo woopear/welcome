@@ -5,4 +5,4 @@ Description of the organization
     who work on joint projects.
     In this file you will find the different 
     rules or good ways of doing things in relation to the code 
-    or others concerning woopear
+    or others concerning woopear.
