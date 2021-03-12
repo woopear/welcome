@@ -2,6 +2,11 @@ Récapitulatif pour composer un fichier **Markdown**.
 =  
 **Liste des commandes à savoir**.
 
+# Retour à la ligne
+
+Pour éffectuer un retour à la ligne il faut appliquer deux espace après chaque fin de phrase puis entrée.  
+je suis un retour à la ligne `espace espace enter `
+
 # **Gras** et _italique_
 
 Écrire en gras et en italique est particulièrement facile avec Markdown. Il suffit d’utiliser les étoiles, appelées aussi astérisques. Pour écrire en italique, insérez tout simplement une étoile devant et derrière l’expression le mot ou concerné. Pour le gras, insérez deux étoiles avant et après. Pour le gras et l’italique, vous devrez opter pour trois étoiles. Une autre option consiste à utiliser les tirets bas.
