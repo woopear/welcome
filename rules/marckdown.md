@@ -4,7 +4,8 @@ Récapitulatif pour composer un fichier **Markdown**.
 
 # Retour à la ligne
 
-Pour éffectuer un retour à la ligne il faut appliquer deux espace après chaque fin de phrase puis entrée.  
+Pour éffectuer un retour à la ligne il faut appliquer deux espace après chaque fin de phrase puis entrée.
+
 je suis un retour à la ligne `espace espace enter `
 
 # **Gras** et _italique_
