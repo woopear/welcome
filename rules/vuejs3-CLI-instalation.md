@@ -48,4 +48,4 @@ Pour valider appuyé sur la touche entrée.
 ![Feature branch](images/vue3-6.png)
 
 Une fois que vous avez valider le projet va s'installer,  
-il n'y aura pu qu'à coder.
+il n'y aura pu qu'à coder...
