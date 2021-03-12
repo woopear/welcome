@@ -99,6 +99,17 @@ Le Markdown accepte deux caractères pour générer les balises HTML d'emphase :
 
 `__caractères de soulignement doublés__` => **caractères de soulignement doublés**
 
+# Les citations
+
+Pour transformer une zone de texte en citation, il est possible de créer un élément de type Blockquote avec Markdown. Pour ce faire, vous utiliserez le signe supérieur à (>). Vous pourrez soit précéder chaque ligne de ce signe, soit en insérer un au début du paragraphe et terminer le paragraphe à mettre en exergue par une ligne vierge. D’autres éléments de formatage sont possibles dans un blockquote.
+
+`>`Ceci est une `**zone en retrait**`.  
+`>`La zone continue ici
+
+`>`Ceci est une autre `**zone de retrait**`.  
+Cette zone continue également dans la ligne suivante.  
+Cependant, cette ligne n’est plus en retrait
+
 Code  
  =
 Pour écrire un morceau de code dans un texte, Markdown l’identifie au moyen du caractère appelé le `Backtick` ` [``] ` ou apostrophe inversée.  
@@ -107,16 +118,28 @@ Pour écrire un morceau de code dans un texte, Markdown l’identifie au moyen d
 
 C’est le `code`.
 
-# Images et hyperliens
+Images et hyperliens  
+=
 
-**Markdown** permet aussi d’insérer des images et des hyperliens dans votre texte. Cette insertion se fait en combinant des parenthèses et des crochets. Pour créer un lien, vous devrez écrire les mots ou les phrases visibles dans le texte entre crochets, suivis directement de l’adresse URL entre parenthèses. Si vous souhaitez ajouter au lien un titre facultatif, visible par l’utilisateur au survol de la souris, c’est tout à fait possible : ce texte devra être ajouté à l’adresse URL entre les parenthèses, mais sera séparé d’une espace de l’URL, et inscrit entre guillemets doubles.
+Markdown permet aussi d’insérer des images et des hyperliens dans votre texte. Cette insertion se fait en `combinant des parenthèses et des crochets`. Pour créer un lien, vous devrez écrire les mots ou les phrases visibles dans le texte entre crochets, suivis directement de l’adresse URL entre parenthèses. Si vous souhaitez ajouter au lien un titre facultatif, visible par l’utilisateur au survol de la souris, c’est tout à fait possible : ce texte devra être ajouté à l’adresse URL entre les parenthèses, mais sera séparé d’une espace de l’URL, et inscrit entre guillemets doubles.
 
-Si vous insérez une adresse URL ou une adresse électronique dans votre texte ordinaire, la plupart des éditeurs Markdown créeront automatiquement un hyperlien accessible par clic. Pour forcer cette fonction, utilisez les signes inférieur et supérieur à. Si, en revanche, vous souhaitez empêcher les éditeurs d’activer cette fonction, marquez l’URL comme code, et utilisez à nouveau les apostrophes inversées.
+Ici ce qui suit `[Lien](https://example.com/ "titre de lien optionnel")`.
+
+Si vous insérez une adresse URL ou une adresse électronique dans votre texte ordinaire, la plupart des éditeurs Markdown créeront automatiquement un hyperlien accessible par clic. Pour forcer cette fonction, utilisez les signes `inférieur et supérieur à`. Si, en revanche, vous souhaitez empêcher les éditeurs d’activer cette fonction, marquez l’URL comme code, et utilisez à nouveau les apostrophes inversées.
 
 > `<https://example.com>`  
-> `https://example.com`
+> `` (`https://example.com`) ``
 
-La syntaxe permettant d’insérer des images est semblable à celle des liens. On commence cependant par insérer un point d’exclamation. Suivent ensuite les crochets entre lesquels on insère le texte alternatif de l’image, puis l’URL de l’image entre parenthèses. L’image sera dans ce cas directement affichée dans le texte.
+La syntaxe permettant d’insérer des images est semblable à celle des liens. On commence cependant par insérer un `point d’exclamation`. Suivent ensuite les crochets entre lesquels on insère le texte alternatif de l’image, puis l’URL de l’image entre parenthèses. L’image sera dans ce cas directement affichée dans le texte.
+
+`![Ceci est un exemple d’image](https://example.com/bild.jpg)`
+
+**Conseil**  
+Vous pouvez bien sûr créer des liens vers des pages HTML ou des images se trouvant sur votre propre serveur. Si le document concerné se trouve sur le même serveur, vous pouvez vous contenter de liens relatifs.
+
+Vous pouvez aussi combiner des images et des hyperliens. Si vous souhaitez insérer un lien cliquable derrière l’image, vous devez combiner les deux fonctions. L’image devient dans ce cas le texte d’ancrage et s’affiche donc entre les crochets.
+
+`[![Ceci est un exemple d’image](https://example.com/bild.jpg)](https://example.com)`
 
 # Les tableaux
 
