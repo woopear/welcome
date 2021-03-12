@@ -2,7 +2,7 @@
 
 Dans un premier temps il faut vous assurez que vous avez bien VUE CLI,  
 ouvré un terminal dans le quel vous tapez la commande suivante:  
-vue -version
+vue --version
 
 Si vous l'avez la version s'affichera.  
 Si vous ne l'avez pas, pour l'installer il vous faudra, toujours dans le terminal,  
