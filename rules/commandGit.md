@@ -1,4 +1,4 @@
-[logo GitHub](https://www.wikidebrouillard.org/images/e/e2/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320.png)
+![logo GitHub](https://www.wikidebrouillard.org/images/e/e2/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320.png)
 
 ## **_Aide mémoire [GitHub](http://https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf "command GitHub")_**
 
