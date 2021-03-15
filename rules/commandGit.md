@@ -80,9 +80,7 @@ Consulter les modifications et effectuer une opération de commit
 > Enleve le fichier de l'index, mais conserve son contenu
 
 > `$ git commit -m "[message descriptif]"`  
-> Enregistre des instantanés de fichiers de façon permanente dans
-
-## l'historique des versions
+> Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions
 
 - ## **GROUPER DES CHANGEMENTS**
 
