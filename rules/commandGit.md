@@ -1,4 +1,4 @@
-![logo GitHub](https://www.wikidebrouillard.org/images/e/e2/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320.png)
+![logo GitHub](images/Logo-github.png)
 
 ## **_Aide mémoire [GitHub](http://https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf "command GitHub")_**
 
@@ -72,6 +72,9 @@ Consulter les modifications et effectuer une opération de commit
 > `$ git add [fichier]`  
 > Ajoute un instantané du fichier, en préparation pour le suivi de version
 
+> `$ git add .`  
+> Ajoute tous les fichiers enfant modifier, attention car cette commande relier tous les fichiers modifier auront les memes commits.
+
 > `$ git diff --staged`  
 > Montre les différences de fichier entre la version indexée et la dernière
 > version
@@ -96,6 +99,9 @@ Nommer une série de commits et combiner les résultats de travaux terminés
 
 > `$ git checkout [nom-de-branche]`  
 > Bascule sur la branche spécifiée et met à jour le répertoire de travail
+
+> `$ git checkout -b [nom-de-branche]`  
+> regroupe les deux commandes "git branch + git checkout"
 
 > `$ git merge [nom-de-branche]`  
 > Combine dans la branche courante l'historique de la branche spécifiée
