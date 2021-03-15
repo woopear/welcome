@@ -1,5 +1,44 @@
 ![logo GitHub](images/Logo-github.png)
 
+# Attention
+
+Pour chaque projet il faut creer un fichier .gitignore
+
+```
+.DS_Store
+node_modules
+
+package-lock.*
+
+*.txt
+
+api.key
+
+/dist
+
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+```
+
 ## **_Aide mémoire [GitHub](http://https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf "command GitHub")_**
 
 Git est le sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur.
