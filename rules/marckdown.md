@@ -118,8 +118,7 @@ Pour écrire un morceau de code dans un texte, Markdown l’identifie au moyen d
 
 C’est le `code`.
 
-Images et hyperliens  
-=
+# Images et hyperliens
 
 Markdown permet aussi d’insérer des images et des hyperliens dans votre texte. Cette insertion se fait en `combinant des parenthèses et des crochets`. Pour créer un lien, vous devrez écrire les mots ou les phrases visibles dans le texte entre crochets, suivis directement de l’adresse URL entre parenthèses. Si vous souhaitez ajouter au lien un titre facultatif, visible par l’utilisateur au survol de la souris, c’est tout à fait possible : ce texte devra être ajouté à l’adresse URL entre les parenthèses, mais sera séparé d’une espace de l’URL, et inscrit entre guillemets doubles.
 
@@ -216,3 +215,9 @@ Accent grave :
 Barre oblique inversée : `\ `
 
 Si l’on veut utiliser ces caractères dans leur sens premier, il suffit de les précéder d’une barre oblique inversée. Important : Cette barre oblique inversée doit impérativement précéder chacun de ces caractères. Cela concerne donc autant une parenthèse ouvrante qu’une parenthèse fermante.
+
+# Mettre la police en couleur
+
+`<span style="color: #26B260">texte à mettre en couleur</span> `
+
+<span style="color: #26B260">texte coloré en vert</span>
