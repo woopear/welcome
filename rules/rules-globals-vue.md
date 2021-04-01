@@ -23,7 +23,6 @@ files and folder in src = lowercase
 ```
 //this name of folder and files component unique
 ex:
-one header = TheHeader
 one menu = TheMenu
 ```
 
@@ -107,7 +106,7 @@ _This Code_
 - JS
 
 ```js
-const myVariable = "my variable";
+const myVariable = 'my variable';
 
 const myObject = {};
 
@@ -117,7 +116,7 @@ function myFunction() {}
 or;
 const myFunction = () => {};
 
-import LibImport from "myLib.js";
+import LibImport from 'myLib.js';
 ```
 
 - TS
